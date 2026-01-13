@@ -1,16 +1,15 @@
 let userName;
 userName = "weight";
-let useNumber;
-useNumber = 68;
+let useNumber = 68;
 console.log(userName);
 console.log(useNumber);
 
 userName = "height";
-userNumber = 1.7;
+let userNumber = 1.7;
 console.log(userName);
 console.log(userNumber);
 
-userName = "formula";
+userName = "bmi";
 console.log(userName);
-let bmi = 68 / (1.7 * 1.7);
+let bmi = weight / (height * height);
 console.log(bmi);
