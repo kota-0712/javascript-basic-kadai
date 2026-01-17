@@ -1,15 +1,7 @@
-let userName;
-userName = "weight";
-let useNumber = 68;
-console.log(userName);
-console.log(useNumber);
+let weight = 68;
 
-userName = "height";
-let userNumber = 1.7;
-console.log(userName);
-console.log(userNumber);
+let height = 1.7;
 
-userName = "bmi";
-console.log(userName);
 let bmi = weight / (height * height);
+
 console.log(bmi);
